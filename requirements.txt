@@ -1,9 +1,6 @@
-streamlit==1.27.2
-rich==13.5.2
-markdown-it-py==3.0.0
+streamlit
 scikit-learn
 pandas
 numpy
 nltk
 imbalanced-learn
-pickle
