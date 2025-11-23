@@ -60,7 +60,7 @@ The Streamlit app allows **real-time predictions** for any news text:
 2. **✍️ Paste News Text**
    - Full text of the article for better predictions
 
-3. **🔮 Predict Now**
+3. **✨ Predict Now**
    - Click the button to see the result:
      - `REAL 📰` for genuine news
      - `FAKE ⚠️` for misinformation
