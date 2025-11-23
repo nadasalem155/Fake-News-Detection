@@ -74,7 +74,7 @@ streamlit run app.py
 
 ---
 
-## 🗂 File Structure
+### 🗂 File Structure
 
 repo_folder/
 
