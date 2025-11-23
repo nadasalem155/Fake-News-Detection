@@ -68,7 +68,7 @@ Run the Streamlit app:
 streamlit run app.py
 ---
 ## 🗂 File Structure
-.
+
 ├── dataset/
 │   ├── fake.csv
 │   └── true.csv
