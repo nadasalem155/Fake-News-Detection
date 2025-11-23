@@ -26,13 +26,12 @@ The notebook demonstrates step by step how the model is prepared:
    - Lemmatize words  
    *(Applied on `title`, `subject`, and `text`)*
 
----
 
 3. **🌐 Word Cloud Visualization**
 
-This Word Cloud shows the most frequent words in the news articles from the dataset. It gives a visual overview of common terms appearing in both Real and Fake news.
+   - This Word Cloud shows the most frequent words in the news articles from the dataset. It gives a visual overview of common terms appearing in both      Real and Fake news.
 
-![Word Cloud](Word_Cloud.png)  
+   ![Word Cloud](Word_Cloud.png)  
 
 
 4. **🖊 Feature Extraction (TF-IDF)**
