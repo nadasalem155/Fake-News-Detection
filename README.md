@@ -89,16 +89,3 @@ TF-IDF converts text into numeric features for Logistic Regression 📈
 SMOTE handles class imbalance 🔄
 
 Streamlit app provides an interactive interface for real-time detection ⚡
----
-## 🚀 Example Usage
-Input News Source: Reuters (optional)
-
-Input News Text:
-"U.S. President signs new bill to improve healthcare system..."
-
-Prediction: REAL 📰
-
-Input News Text:
-"Breaking: Celebrity endorses miracle weight loss pill..."
-
-Prediction: FAKE ⚠️
