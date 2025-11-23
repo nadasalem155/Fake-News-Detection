@@ -3,6 +3,10 @@
 Detect whether a news article is **REAL 📰** or **FAKE ⚠️** using Natural Language Processing (NLP) and a Logistic Regression model with TF-IDF vectorization. This project includes a **Jupyter Notebook** for data exploration, preprocessing, and model training, as well as a **Streamlit app** for real-time predictions.  
 
 ---
+# Live App  
+🔗 [Fake News Detection Streamlit App](https://fake-news-detection5.streamlit.app/)  
+
+---
 
 ## 📝 Project Notebook
 
@@ -66,7 +70,9 @@ pip install -r requirements.txt
 Run the Streamlit app:
 
 streamlit run app.py
+
 ---
+
 ## 🗂 File Structure
 
 ├── dataset/
@@ -78,7 +84,9 @@ streamlit run app.py
 ├── app.py                  # Streamlit web application
 ├── requirements.txt
 └── README.md
+
 ---
+
 ## 📊 Notes
 The news source field is optional 📰
 
