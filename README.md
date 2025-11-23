@@ -76,9 +76,9 @@ streamlit run app.py
 
 ### 🗂 File Structure
 
-repo_folder/
+repo_folder
 
-├─ dataset/
+├─ dataset
 
 │  ├─ fake.csv
 
@@ -93,7 +93,6 @@ repo_folder/
 ├─ app.py                             # Streamlit web application
 
 ├─ requirements.txt
-
 └─ README.md
 
 ---
