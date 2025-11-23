@@ -77,14 +77,23 @@ streamlit run app.py
 ## 🗂 File Structure
 
 repo_folder/
+
 ├─ dataset/
+
 │  ├─ fake.csv
+
 │  └─ true.csv
-├─ fake_news_detection.ipynb         # Notebook for data preprocessing, feature extraction, and model training
+
+├─ fake_news_detection.ipynb  # Notebook for data preprocessing, feature extraction, and model training
+
 ├─ tfidf_vectorizer.pkl               # Saved TF-IDF vectorizer
+
 ├─ logreg_model.pkl                   # Trained Logistic Regression model
+
 ├─ app.py                             # Streamlit web application
+
 ├─ requirements.txt
+
 └─ README.md
 
 ---
