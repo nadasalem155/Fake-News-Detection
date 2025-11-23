@@ -26,15 +26,24 @@ The notebook demonstrates step by step how the model is prepared:
    - Lemmatize words  
    *(Applied on `title`, `subject`, and `text`)*
 
-3. **🖊 Feature Extraction (TF-IDF)**
+---
+
+3. **🌐 Word Cloud Visualization**
+
+This Word Cloud shows the most frequent words in the news articles from the dataset. It gives a visual overview of common terms appearing in both Real and Fake news.
+
+![Word Cloud](Word_Cloud.png)  
+
+
+4. **🖊 Feature Extraction (TF-IDF)**
    - Combined `title`, `subject`, and `text` columns
    - Vectorized text using `TfidfVectorizer(max_features=5000)`
 
-4. **🔄 Handle Imbalance (SMOTE)**
+5. **🔄 Handle Imbalance (SMOTE)**
    - Oversampled minority class to balance the dataset
    - Ensured the model learns equally from Real and Fake news
 
-5. **🤖 Model Training**
+6. **🤖 Model Training**
    - Trained `LogisticRegression` on the oversampled dataset
    - Evaluated performance on test set (~94% accuracy)
    - Saved trained model and TF-IDF vectorizer using `pickle`
@@ -87,6 +96,7 @@ repo_folder :
 - app.py                             # Streamlit web application
 - requirements.txt
 - README.md
+- Word_Cloud.png      # Word Cloud of the dataset
 
 ---
 
