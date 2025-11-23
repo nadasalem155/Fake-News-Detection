@@ -91,12 +91,12 @@ repo_folder :
 ---
 
 ## 📊 Notes
-The news source field is optional 📰
+- The news source field is optional 📰
 
-Preprocessing ensures the text is clean and ready for the model 🧹
+- Preprocessing ensures the text is clean and ready for the model 🧹
 
-TF-IDF converts text into numeric features for Logistic Regression 📈
+- TF-IDF converts text into numeric features for Logistic Regression 📈
 
-SMOTE handles class imbalance 🔄
+- SMOTE handles class imbalance 🔄
 
-Streamlit app provides an interactive interface for real-time detection ⚡
+- Streamlit app provides an interactive interface for real-time detection ⚡
