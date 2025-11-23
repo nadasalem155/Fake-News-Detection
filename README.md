@@ -76,7 +76,7 @@ streamlit run app.py
 
 ### 🗂 File Structure
 
-repo_folder
+repo_folder :
 
 - dataset
 └─ fake.csv
